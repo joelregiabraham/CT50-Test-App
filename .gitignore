@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Allow APKs in the release folder
+!app/release/*.apk
