@@ -86,6 +86,21 @@
         android:gravity="center"
         android:paddingBottom="24dp" />
 
+    <!-- Debug Info -->
+    <TextView
+        android:id="@+id/tvDebugInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debug: Ready"
+        android:textSize="12sp"
+        android:textColor="#FF5722"
+        android:fontFamily="monospace"
+        android:background="#FFF3E0"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:maxLines="10"
+        android:scrollbars="vertical" />
+
     <!-- Clear Button -->
     <Button
         android:id="@+id/btnClearScans"
